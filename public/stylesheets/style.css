@@ -1,0 +1,41 @@
+.bg-3 {
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #0090f0 !important;
+  }
+.active>a {
+    color: #0090f0 !important;
+    background: transparent !important;
+  }
+
+#profilePic {
+    display: block;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+/* center column */
+  .col-centered{
+  float: none;
+  margin: 0 auto;
+  }
+
+/* default text colour */
+.textColor{
+    color: #b8b8b8;
+}
