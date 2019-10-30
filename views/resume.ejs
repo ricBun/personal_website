@@ -2,205 +2,219 @@
 
 <link rel="stylesheet" href="./stylesheets/resume.css">
 
-<div id="resumeNav" class="navbar text-center">
-    <a href="#aboutMe" class="active">ABOUT</a>
-    <a href="#experience">EXPERIENCE</a>
-    <a href="#education">EDUCATION</a>
-    <a href="#skills">SKILLS</a>
-    <a href="#interests">INTERESTS</a>
-</div>
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">ABOUT<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">EXPERIENCE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">EDUCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interests">INTERESTS</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
 
 <div class="container-fluid bg-3">
-    <div class="container resumeFont ">
+  <div class="container resumeFont">
 
-        <!----------------------------------- ABOUT SECTION ----------------------------------->
-        <section id="aboutMe">
-            <br>
-            <p id="about">I am an aspiring full-stack developer with a never-ending passion for personal growth.</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/richardbun/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://github.com/ricBun" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.facebook.com/richard.bun.58" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </div>
-        </section>
+    <!----------------------------------- ABOUT SECTION ----------------------------------->
+    <section id="aboutMe">
+      <br>
+      <p>I am an aspiring full-stack developer with a never-ending passion for personal growth.</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/richardbun/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ricBun" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com/richard.bun.58" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </section>
 
-        <hr>
+    <hr>
 
-        <!----------------------------------- EXPERIENCE SECTION --------------------------------->
-        <section id="experience">
-                <h2 class="mb-5 text-primary">Experience</h2>
+    <!----------------------------------- EXPERIENCE SECTION --------------------------------->
+    <section id="experience">
+      <h3 class="mb-4 text-primary">Experience</h3>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">Server</h3>
-                        <div class="subheading mb-3">Amsterdam Brewhouse - Toronto, Canada <span class="text-primary resumeDate">March 2019 - Present</span></div>
-                        <p> Working as a server. Built strong communication skills in this field of work through understanding and catering to each and every customer's individual needs. Catered to customer's needs in timely and efficient manner.
-                        </p>
-                    </div>
-                </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="resume-content">
+          <h5 class="mb-0 inline">Server</h5>
+          <span class="text-primary resumeDate">March 2019 - Present</span>
+          <div class="subheading mb-4">Amsterdam Brewhouse - Toronto, Canada</div>
+          <p> Working as a server. Built strong communication skills in this field of work through understanding and catering to each and every customer's individual needs. Catered to customer's needs in timely and efficient manner.
+          </p>
+        </div>
+      </div>
 
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">Intern</h3>
-                        <div class="subheading mb-3">IBM - Markham, Canada <span class="text-primary resumeDate">May 2017 - August 2018</span></div>
-                        <p>Worked with the Business Automation Workflow product.
-                            Designed automated test cases for stress testing various aspects of product. Also debugged and packaged fixes for customer PMR's.
-                            Helped experiment with a different indexing architecture in order to apply the possibility of a distributed system for the product.
-                        </p>
-                    </div>
-                </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="resume-content">
+          <h5 class="mb-0 inline">Intern</h5>
+          <span class="text-primary resumeDate">May 2017 - August 2018</span>
+          <div class="subheading mb-4">IBM - Markham, Canada</div>
+          <p>Worked with the Business Automation Workflow product.
+            Designed automated test cases for stress testing various aspects of product. Also debugged and packaged fixes for customer PMR's.
+            Helped experiment with a different indexing architecture in order to apply the possibility of a distributed system for the product.
+          </p>
+        </div>
+      </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">Researcher</h3>
-                        <div class="subheading mb-3">FORTH Institute of Computer Science (ICS) - Crete, Greece <span class="text-primary resumeDate">June 2016 - October 2016</span></div>
-                        <p>Conducted research that was part of a 4th year undergraduate project.
-                            Established relational and non-relational databases for bibliographic information on computer science publications.
-                            Implemented various qualitative and quantitative analyses to observe query performance and overall advantages/disadvantages of the various established databases.</p>
-                    </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="resume-content">
+          <h5 class="mb-0 inline">Researcher</h5>
+          <span class="text-primary resumeDate">June 2016 - October 2016</span>
+          <div class="subheading mb-4">FORTH Institute of Computer Science (ICS) - Crete, Greece</div>
+          <p>Conducted research that was part of a 4th year undergraduate project.
+            Established relational and non-relational databases for bibliographic information on computer science publications.
+            Implemented various qualitative and quantitative analyses to observe query performance and overall advantages/disadvantages of the various established databases.</p>
+        </div>
 
-                </div>
+      </div>
 
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">Intern</h3>
-                        <div class="subheading mb-3">Fraunhofer Institute for Applied Information Technology (FIT) - Sankt Augustin, Germany <span class="text-primary resumeDate">March 2016 - June 2016</span></div>
-                        <p>Focused on the area of database management.
-                            Designed and implemented databases to monitor autonomically updated network flow data.
-                            Translated data into visual graphs, providing easy-to-view depiction on the overall performance of network.
-                            Integrated establishment of said graphs into a local host website of the project. </p>
-                    </div>
-            </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="resume-content">
+          <h5 class="mb-0 inline">Intern</h5>
+          <span class="text-primary resumeDate">March 2016 - June 2016</span>
+          <div class="subheading mb-4">Fraunhofer Institute for Applied Information Technology (FIT) - Sankt Augustin, Germany</div>
+          <p>Focused on the area of database management.
+            Designed and implemented databases to monitor autonomically updated network flow data.
+            Translated data into visual graphs, providing easy-to-view depiction on the overall performance of network.
+            Integrated establishment of said graphs into a local host website of the project. </p>
+        </div>
+      </div>
 
-        </section>
+    </section>
 
-        <hr>
-        <!----------------------------------- EDUCATION SECTION ----------------------------------->
-        <section id="education">
-            <h2 class="mb-5 text-primary">Education</h2>
+    <hr>
+    <!----------------------------------- EDUCATION SECTION ----------------------------------->
+    <section id="education">
+      <h3 class="mb-4 text-primary">Education</h3>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-              <div class="resume-content">
-                <h3 class="mb-0">Lassonde School of Engineering - York University</h3>
-                <div class="subheading mb-3">Bachelor of Science With Honours</div>
-                <div>International Dual Degree Program</div>
-                <ul class="fa-ul mb-0">
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                    Program involves over a year of a studies abroad</li>
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                    One of only a handful of students to complete the program</li>
-                  <li>
-                     <i class="fas fa-chevron-right"></i>
-                    GPA: 3.2</li>
-                </ul>
-              </div>
-            </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="resume-content">
+          <h5 class="mb-0">Lassonde School of Engineering - York University</h5>
+          <div class="subheading mb-4">Bachelor of Science With Honours</div>
+          <div>International Dual Degree Program</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Program involves over a year of a studies abroad</li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              One of only a handful of students to complete the program</li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              GPA: 3.2</li>
+          </ul>
+        </div>
+      </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-              <div class="resume-content">
-                <h3 class="mb-0">Bonn-Rhein-Sieg University of Applied Sciences</h3>
-                <div class="subheading mb-3">Bachelor of Science</div>
-                <div>Part of the dual degree program offered by York University</div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-content">
+          <h5 class="mb-0">Bonn-Rhein-Sieg University of Applied Sciences</h5>
+          <div class="subheading mb-4">Bachelor of Science</div>
+          <div>Part of the dual degree program offered by York University</div>
 
-                <ul class="fa-ul mb-0">
-                  <li>
-                    <i class="fas fa-chevron-right"></i>
-                        Studied a semester abroad in Bonn, Germany</li>
-                  <li>
-                     <i class="fas fa-chevron-right"></i>
-                        Courses taken were in German</li>
-                  <li>
-                     <i class="fas fa-chevron-right"></i>
-                    Had an internship at the Fraunhofer Institute of Technology (FIT) in Sankt Augustin, Germany</li>
-                  <li>
-                     <i class="fas fa-chevron-right"></i>
-                    Completed an undergraduate thesis as part of program requirements in Crete, Greece</li>
-                </ul>
-              </div>
-            </div>
-        </section>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Studied a semester abroad in Bonn, Germany</li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Courses taken were in German</li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Had an internship at the Fraunhofer Institute of Technology (FIT) in Sankt Augustin, Germany</li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              Completed an undergraduate thesis as part of program requirements in Crete, Greece</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <hr>
-        <!-- SKILLS SECTION -->
-        <section id="skills">
-            <h2 class="mb-5 text-primary">Skills</h2>
+    <hr>
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2 class="mb-4 text-primary">Skills</h2>
 
-            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-            <ul class="list-inline dev-icons">
-              <li class="list-inline-item">
-                <i class="fab fa-html5"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-css3-alt"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-js-square"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-node-js"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-java"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-bootsrap"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-python"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-npm"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-linux"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-apple"></i>
-              </li>
-              <li class="list-inline-item">
-                <i class="fab fa-windows"></i>
-              </li>
-            </ul>
+      <div class="subheading mb-4">Programming Languages &amp; Tools</div>
 
-            <div class="subheading mb-3">Workflow</div>
-            <ul class="fa-ul mb-0">
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Works well in a fast paced environment</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Excellent communication skills gained through customer service and team collaboration</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                Excellent team building skills</li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Agile Development &amp; Scrum</li>
-            </ul>
-        </section>
+      <p>
+        <strong>currently learning stack: MERN</strong>
+        <br />
+      </p>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><strong>Operating Systems</strong></td>
+            <td>Linux, Windows, OSX</td>
+          </tr>
+          <tr>
+            <td><strong>System Development</strong></td>
+            <td>Java, Python, Shell Script</td>
+          </tr>
+          <tr>
+            <td><strong>Web Development</strong></td>
+            <td> JavaScript, NodeJS, HTML, CSS, jQuery, Bootstrap, Express, Nginx, Apache</td>
+          </tr>
+          <tr>
+            <td><strong>Database Management</strong></td>
+            <td>MongoDB, SQL, MySQL, Lucene, ElasticSearch, RRDTool</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <hr>
-        <!-- INTERESTS SECTION -->
-        <section  id="interests">
-            <h2 class="mb-5 text-primary">Interests</h2>
-            <p>I'm currently learning how to tinker with my own webserver on my free time and trying to learn more about front-end developing.</p>
+      <div class="subheading mb-4">Workflow</div>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Works well in a fast paced environment</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Excellent communication skills gained through customer service and team collaboration</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Excellent team building skills</li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Agile Development &amp; Scrum</li>
+      </ul>
+    </section>
 
-            <p>Aside from developing my technical skills, my interests revolve around my own physical and mental wellness. I try to go to the gym at least four times a week and yoga every now and then.</p>
+    <hr>
+    <!-- INTERESTS SECTION -->
+    <section id="interests">
+      <h2 class="mb-4 text-primary">Interests</h2>
+      <p>I'm currently learning how to tinker with my own webserver on my free time and trying to learn more about front-end developing.</p>
 
-            <p>I also have a passion for cooking new recipes found online. Whenever I get the chance, I love to expand my world views through travelling.</p>
+      <p>Aside from developing my technical skills, my interests revolve around my own physical and mental wellness. I try to go to the gym at least four times a week and yoga every now and then.</p>
 
-        </section>
+      <p>I also have a passion for cooking new recipes found online. Whenever I get the chance, I love to expand my world views through travelling.</p>
 
-    </div>
+    </section>
+
+  </div>
 </div>
 
 
