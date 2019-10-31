@@ -8,7 +8,7 @@ let express  = require("express"),
 // ROUTES
 // ---------------------------------------------------------
 let   indexRoute      = require("./routes/homepage"),
-      projectsRoute   = require("./routes/projects"),
+      projectsRoute   = require("./routes/project"),
       contactRoute    = require("./routes/contact"),
       resumeRoute     = require("./routes/resume");
 
