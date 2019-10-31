@@ -1,2 +1,3 @@
 # Ignore online_resume folder
 online_resume/
+.env
