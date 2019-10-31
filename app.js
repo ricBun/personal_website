@@ -29,7 +29,6 @@ app.use(resumeRoute);
 
 // PROJECTS
 
-
 // -----------------------------------------------------------
 // YELP CAMP CODE SETUP
 // -----------------------------------------------------------
@@ -65,15 +64,9 @@ process.exit();
 });
 // use body parser
 app.use(bodyParser.urlencoded({extended: true}));
-//  use EJS engine
-app.set("view engine", "ejs");
 
 // // purge DB
 // seedDB();
-
-// use stylesheet
-app.use(express.static(__dirname + "/public"));
-console.log(__dirname);
 
 // used to make a PUT request instead of POST
 app.use(methodOverride("_method"));

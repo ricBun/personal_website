@@ -28,11 +28,11 @@
 
                 <!-- check if current user is matching id of post -->
                 <% if(currentUser && (campground.author.id.equals(currentUser._id) || currentUser.isAdmin )){ %>
-                <a class="btn btn-warning" href="/project/yelpcamp/campgrounds/<%=campground._id %>/edit">Edit</a>
+                <a class="btn btn-warning" href="/project/yelpcamp/campgrounds/<%=campground._id %>/edit"><i class="fas fa-edit"></i> Edit</a>
 
                 <!-- delete form -->
                 <form class="delete-form" action="/project/yelpcamp/campgrounds/<%= campground._id%>?_method=DELETE" method="post">
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-danger"><i class="far fa-trash-alt"></i> Delete</button>
                 </form>
                 <% } %>
 
@@ -46,7 +46,7 @@
               <!--Setting up the add new comment button that is used for collapsing-->
               <div class="text-right">
                   <a class="btn btn-success pull-right" role="button" data-toggle="collapse" href="#collapseComment" aria-expanded="false" aria-controls="collapseComment">
-                     Add new comment
+                     <i class="fas fa-folder-plus"></i> Add new comment
                   </a>
               </div>
 
@@ -103,11 +103,11 @@
                       <% if (currentUser && (currentUser._id.equals(comment.author.id) || currentUser.isAdmin)) { %>
                         <!--Delete comment button-->
                         <form id="delete-form" action="/project/yelpcamp/campgrounds/<%= campground._id %>/comments/<%= comment._id %>?_method=DELETE" method="POST" style="display: inline;">
-                          <button class="btn btn-sm btn-danger float-right">Delete</button>
+                          <button class="btn btn-sm btn-danger float-right"><i class="far fa-trash-alt"></i> Delete</button>
                         </form>
                       <!--Edit button used for collapsing the edit comment form-->
                       <a class="btn btn-sm btn-warning float-right" role="button" data-toggle="collapse" href="#collapseEdit<%= comment._id %>" aria-expanded="false" aria-controls="collapse<%= comment._id %>">
-                          Edit</a>
+                          <i class="fas fa-edit"></i> Edit</a>
                       <!--Edit comment form-->
                       <div class="collapse" id="collapseEdit<%= comment._id %>">
                           <div class="card border-0">
