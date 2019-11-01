@@ -31,7 +31,7 @@
 }
 
 /* center column */
-  .col-centered{
+.col-centered{
   float: none;
   margin: 0 auto;
   }
@@ -44,8 +44,4 @@
 .small-middle-container{
 	/* margin: auto; */
 	width: 40%;
-}
-
-.p-with-ul{
-  margin-bottom: 0;
 }

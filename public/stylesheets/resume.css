@@ -50,11 +50,6 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-.resumeDate{
-    float: right;
-    /* padding-right:15px; */
-}
-
 /* Headers */
 h1,
 h2,
@@ -97,6 +92,6 @@ p.lead {
     font-size: 2rem;
 }
 
-.inline{
-  display:inline;
+html{
+  scroll-behavior: smooth;
 }
