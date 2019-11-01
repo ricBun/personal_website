@@ -40,3 +40,8 @@
 .textColor{
     color: #b8b8b8;
 }
+
+.small-middle-container{
+	/* margin: auto; */
+	width: 40%;
+}
