@@ -6,10 +6,10 @@ var commentSchema = new mongoose.Schema({
     author: {
         id: {
             type: mongoose.Schema.Types.ObjectId,
-            ref: "User"
+            ref: "YelpCamp_User"
         },
         username: String
     }
 });
 
-module.exports = mongoose.model("Comment", commentSchema);
+module.exports = mongoose.model("YelpCamp_Comment", commentSchema);

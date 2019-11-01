@@ -13,16 +13,16 @@ var campgroundSchema = new mongoose.Schema({
    author: {
        id: {
            type: mongoose.Schema.Types.ObjectId,
-           ref: "User"
+           ref: "YelpCamp_User"
        },
        username: String
    },
    comments: [
       {
          type: mongoose.Schema.Types.ObjectId,
-         ref: "Comment"
+         ref: "YelpCamp_Comment"
       }
    ]
 });
 
-module.exports = mongoose.model("Campground", campgroundSchema);
+module.exports = mongoose.model("YelpCamp_Campground", campgroundSchema);
