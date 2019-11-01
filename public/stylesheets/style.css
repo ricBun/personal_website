@@ -27,7 +27,7 @@
     display: block;
     max-width: 40%;
     margin: 0 auto;
-    max-height: 60vh;
+    max-height: 50vh;
 }
 
 /* center column */
@@ -44,4 +44,8 @@
 .small-middle-container{
 	/* margin: auto; */
 	width: 40%;
+}
+
+.p-with-ul{
+  margin-bottom: 0;
 }
