@@ -56,7 +56,8 @@ router.get("/login", function(req, res){
 // handle login logic
 router.post("/login", passport.authenticate("local", {
         successRedirect: "/project/yelpcamp/campgrounds",
-        failureRedirect: "/project/yelpcamp/login"
+        failureRedirect: "/project/yelpcamp/login",
+        failureFlash: true
     }) , function(req, res){
 });
 
